@@ -2,9 +2,6 @@
 Feature: test
 
   Scenario: Test case 1
-#    Given I am on dashboard
-#    And I want to test
-  #  And I want to calculate loan repayment
     Given I navigate to Old Mutual Finance Web site and verify that the title
     And Navigate to PERSONAL LOANS page and verify that you are on the correct page
     And  Navigate to CALCULATE, select R50 000 from the dropdown then click next.
